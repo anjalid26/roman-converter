@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@300&display=swap');
+
+:root {
+    --primary-color: #FDE047;
+    --secondary-color: #0369A1;
+}
+
+body {
+    max-width: auto;
+    background-image: url("/images.png");
+    color: white;
+    font-family: 'Texturina', serif;
+    background-size: contain;
+    margin: 0px 0px;
+}
+
+p {
+    background-color: var(--primary-color);
+}
+
+textarea {
+    border: solid black 1px;
+    margin: 3rem;
+    padding: 2rem;
+    /* width: 10%; */
+    width: 20rem;
+    height: 5rem;
+    align-items: center;
+    font-family: 'Texturina', serif;
+    position: relative;
+}
+
+#txt-output {
+    border: solid black 1px;
+    margin: 3rem;
+    padding: 2rem;
+    width: 20rem;
+    height: 5rem;
+    background-color: white;
+    color: black;
+    font-family: 'Texturina', serif;
+    align-items: center;
+}
+
+.output {
+    background-color: var(--secondary-color);
+    max-width: fit-content;
+    padding: 0.5rem 0.5rem;
+    color: white;
+}
+
+
+/* lists */
+.list-non-bulllet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem; 
+}
+
+.list-ul {
+    max-width: 600px;
+    margin: auto;
+}
+
+
+/* button */
+#btn-translate {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    width: 10rem;
+    height: 4rem;
+    margin: 1rem;
+    font-family: 'Texturina', serif;
+    font-size: large;
+}
+
+
+/* links */
+a:hover {
+    /* color: var(--primary-color); */
+    font-weight: bold;
+}
+
+a {
+    color: var(--primary-color);
+}
+
+
+/* container */
+.container {
+    padding: 1rem 1rem;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+
+/* navigation */
+.navigation {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+    font-family: 'Nerko One', cursive;
+    width: 100%;
+    position: relative;
+}
+
+
+/* footer */
+.footer {
+    background-color: var(--secondary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    /* color: white; */
+    border-top-right-radius: 1rem;
+    margin: 0px;
+    width: 100%;
+    position: relative;
+}
+
+.footer .links {
+    color: var(--primary-color);
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+.footer .footer-header {
+    font-weight: medium;
+    font-size: medium;
+    color: var(--primary-color);
+    padding: 0rem 4rem;
+}
+
