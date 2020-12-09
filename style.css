@@ -83,6 +83,8 @@ textarea {
     padding: 0.5rem 0.5rem;
     color: var(--secondary-color);
     font-weight: bold;
+    text-align: center;
+    align-items: center;
 }
 
 
